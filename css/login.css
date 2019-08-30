@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+section{
+  
+    top: 100px;
+    left: 0px;
+    width: 1350px;
+    height: 900px;
+    background-color: white;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+
+.topbar{
+
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 1350px;
+    height: 50px;
+    background-color: black;
+}
+.alignement{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+
+.topbar nav{
+    float: left;
+   
+}
+.social{
+    float:right;
+    margin-top: 8px; 
+    margin-right: 5px;  
+}
+
+.topbar nav a {
+    color:white;
+    padding: 0 53px;
+    text-decoration:none;
+}
+
+.topbar nav  a:hover, .topbar nav a.active{
+    color: rgb(37, 76, 250);
+}
+
+
+
+aside a{
+   float:right;
+   color: rgb(102, 42, 42);
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 120px;
+    
+}
+
+
+.footer
+{ 
+width: 100%;
+background-color: black;
+display: block;
+}
+
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    justify-content: center; 
+}
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h1{padding: 10px 0;
+font-size: 25px;
+color:#fff;
+text-transform: uppercase;
+}
+h3{padding: 10px 0;
+    font-size: 25px;
+    color:#fff;
+    text-transform: uppercase;
+    }
+.footer-items {
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h2{
+    margin: 10px 0;
+    color:grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.login-form{
+    padding: 25px;
+}
